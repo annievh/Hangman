@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Van Harmelen Whalen Assignment 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="GameController.js"></script>
+    <script src="A5js.js"></script>
+</head>
+
+<body>
+
+    <nav class="nav bg-dark">
+        <h1 class="text-white">Van Harmelen, Whalen Assignment 5</h1>
+    </nav>
+    <div class="row">
+        <div class="col-6 d-none" id="image">
+            <img src="guess6.png" alt="a set of gallows" id ="img">
+        </div>
+        <div class="d-flex align-items-center align-middle justify-content-center " id="newGameScreen">
+            <button class="btn btn-warning btn-lg align-middle" id="newGameBtn">New game</button>
+        </div>
+        <div class="justify-content-center p-5 d-none" id="categorySelect">
+            <h2>Choose a category!</h2>
+            <button class="btn btn-warning btn-md col-5 p-2 m-2" id="countriesBtn">Countries</button>
+            <button class="btn btn-warning btn-md col-5 p-2 m-2" id="flowersBtn">Flowers</button>
+            <button class="btn btn-warning btn-md col-5 p-2 m-2" id="legalBtn">Legal</button>
+            <button class="btn btn-warning btn-md col-5 p-2 m-2" id="temporalBtn">Temporal</button>
+            <button class="btn btn-warning btn-lg col-10 p-2 m-3" id="okBtn">Ok</button>
+        </div>
+
+        <div class="col-6 d-none" id="gameBoard">
+            <div class="mb-5" id="category">
+            </div>
+            <div class="mb-5" id="word">
+                <h2>_ _ _ _ _ _ _ _ _ _ _ _ _</h2>
+            </div>
+            <div id="keyboard">
+                <div id="oneRow">
+                    <button class="btn btn-warning keyBtn">A</button>
+                    <button class="btn btn-warning keyBtn">B</button>
+                    <button class="btn btn-warning keyBtn">C</button>
+                    <button class="btn btn-warning keyBtn">D</button>
+                    <button class="btn btn-warning keyBtn">E</button>
+                    <button class="btn btn-warning keyBtn">F</button>
+                    <button class="btn btn-warning keyBtn">G</button>
+                </div>
+                <div id="twoRow">
+                    
+                    <button class="btn btn-warning keyBtn">H</button>
+                    <button class="btn btn-warning keyBtn">I</button>
+                    <button class="btn btn-warning keyBtn">J</button>
+                    <button class="btn btn-warning keyBtn">K</button>
+                    <button class="btn btn-warning keyBtn">L</button>
+                    <button class="btn btn-warning keyBtn">M</button>
+                    <button class="btn btn-warning keyBtn">N</button>
+                </div>
+                <div id="threeRow">
+                    
+                    <button class="btn btn-warning keyBtn">O</button>
+                    <button class="btn btn-warning keyBtn">P</button>
+                    <button class="btn btn-warning keyBtn">Q</button>
+                    <button class="btn btn-warning keyBtn">R</button>
+                    <button class="btn btn-warning keyBtn">S</button>
+                    <button class="btn btn-warning keyBtn">T</button>
+                    <button class="btn btn-warning keyBtn">U</button>
+                </div>
+                <div id="fourRow">
+                    <button class="btn btn-warning keyBtn"> </button>
+                    <button class="btn btn-warning keyBtn">V</button>
+                    <button class="btn btn-warning keyBtn">W</button>
+                    <button class="btn btn-warning keyBtn">X</button>
+                    <button class="btn btn-warning keyBtn">Y</button>
+                    <button class="btn btn-warning keyBtn">Z</button>
+                    <button class="btn btn-warning keyBtn"> </button>
+                </div>
+            </div>
+            <div class ="d-none" id="gameOverScreen">
+                <button class="btn btn-warning btn-lg align-middle" id="resetGameBtn">New game</button>
+                <div class="d-none" id="popUpWin">
+                    <h2>Won</h2>
+                </div>
+                <div class="d-none" id="popUpLost">
+                    <h2>Lost</h2>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+
+.keyBtn { 
+    box-sizing: border-box;
+    margin: 5px;
+    height: 4vw;
+    width: 4vw;
+    font-size: larger;}
+.disable {
+    background-color: white;
+    outline: thin black;
+}
+
+#newGameScreen {
+    height: 500px;
+}
+
+#image {
+    text-align: center;
+    float: left;
+    margin: auto;
+   
+}
